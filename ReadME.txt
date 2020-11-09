@@ -6,4 +6,6 @@ waarde in worden opgeslagen om later in de berekening weer te gebruiken.
 Bij het maken van deze website is geen gebruik gemaakt van externe tools en/of libriraries. De website kan dus direct in 
 de browser worden geopend en de rekenmachine is dan meteen functioneel.
 
+Kopieer https://kingb0o.github.io/Rekenmachine/index.html in uw zoekbalk om de website te runnen.
+
 Geschreven door Wessel van der Linde, 9 Nov 2020.
