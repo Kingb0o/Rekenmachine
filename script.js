@@ -83,6 +83,7 @@ function calculate() {
         'cos(x)': function (x, y) { return Math.cos(y * Math.PI / 180) },
         'tan(x)': function (x, y) { return Math.tan(y * Math.PI / 180) }
     }
+    /* Gets result from the values and operator and rounds the answer if necessary. */
     calculator.display = res[calculator.operand](parseFloat(calculator.firstVal), parseFloat(calculator.display));
     calculator.display = +(Math.round(calculator.display + "e+2")  + "e-2");
     calculator.firstVal = calculator.display;
@@ -90,7 +91,6 @@ function calculate() {
     if (calculator.display.toString().length > displayLength) {
         calculator.display = "NaN";
         calculator.err = true;
-
     }
     updateDisplay();
 }
